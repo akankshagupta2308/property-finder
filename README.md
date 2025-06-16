@@ -48,3 +48,21 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+To run the json server
+```bash
+npx json-server db.json
+```
+
+To run the apis one need to use their ip address instead of localhost in api equest.
+for example
+instead of
+## http://localhost:3000
+use
+## http://192.168.0.103:3000/properties  (here ip address should be your system ip)
+
+
+Assumptions -
+1. You can make only one day booking for any property.
+
